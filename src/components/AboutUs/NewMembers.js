@@ -74,6 +74,16 @@ const Members = () => {
       </div>
       <div>
         <div className={classes.base}>
+          <img src="img/aboutus/3.png" alt="3" />
+          <img className={classes.profileImg} src="img/aboutus/YA.png" alt="YA" />
+          <div className={classes.text}>
+            <h1>Yoona Kim</h1>
+            <h2>Designer</h2>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className={classes.base}>
           <img src="img/aboutus/6.png" alt="6" />
           <img className={classes.profileImg} src="img/aboutus/empty.png" alt="HJ" />
           <div className={classes.text}>
@@ -99,7 +109,7 @@ const Members = () => {
 
 const cssstyle = `
 .slick-prev {
-  // transform:translate(-50%,-50%)
+  transform:translate(-10%,-50%)
 }
 .slick-next:before, .slick-prev:before {
   color: #1e3257;

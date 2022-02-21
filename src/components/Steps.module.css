@@ -110,6 +110,8 @@
   margin-top: 10%;
   align-self: flex-start;
   margin-left: 8vw;
+  will-change: transform;
+  will-change: opacity;
   /* background-color: chartreuse; */
 }
 .Step2 {
@@ -118,6 +120,9 @@
   align-self: flex-end;
   z-index: 3;
   margin-right: 58vw;
+
+  will-change: transform;
+  will-change: opacity;
   /* background-color: chartreuse; */
 }
 .Step3 {
@@ -126,6 +131,8 @@
   align-self: flex-start;
   margin-left: 8vw;
   z-index: 3;
+  will-change: transform;
+  will-change: opacity;
   /* background-color: chartreuse; */
 }
 

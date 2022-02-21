@@ -1,19 +1,7 @@
 import AboutSmartoothCSS from "./AboutSmartooth.module.css";
-import React, {useEffect, useState} from "react";
+import React from "react";
 
 function AboutSmartooth() {
-  const [position,setPosition] = useState(window.scrollY)
-
-  function onScroll() {
-    setPosition(window.scrollY)
-  }
-  useEffect(() => {
-    console.log(position)
-    window.addEventListener("scroll", onScroll)
-    return () => {
-      window.removeEventListener("scroll",onScroll)
-    }
-  }, [])
   return (
     <div className={AboutSmartoothCSS.base}
     >
