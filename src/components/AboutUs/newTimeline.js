@@ -11,17 +11,24 @@ function NewTimeline() {
                     <li className={newTimelineCSS.right} >
                         <h1 className={newTimelineCSS.title} >Timeline</h1>
                     </li>
+//덩어리의 시작
                     <li className={newTimelineCSS.right} >
                         <img src="img/aboutus/point.png" alt="point" />
+                            //옆에 붙어다니는 동그라미 (건드실 필요 없습니다.)
                         <h2>2019.01</h2>
+                            //날짜 
                         <h3 style={{marginLeft:"2vmin"}}>
                         - <b>Project Establishment</b>
+                            //세부내용
                         <br />
                         - Secured <b>Core technology</b>
+                            //세부내용 2
                         <br />
                         - Ventrue certification
+                            //세부내용 3
                         </h3>
                     </li>
+//덩어리의 끝
                     <li className={newTimelineCSS.left} >
                     <img src="img/aboutus/point.png" alt="point" />
                         <h2>2019.05</h2>
