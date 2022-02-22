@@ -235,12 +235,11 @@
   .Step1Content div {
     font-family: 'AppleSDGothicNeoT00';
     font-weight: 300;
-    margin-right: -5vw;
-    margin-top: 5vw;
     transform: rotate(90deg);
     width: fit-content;
     font-size: 5vw;
     align-self: flex-end;
+    margin: 10vw -5vw -5vw 0;
   }
   .Step2Content div {
     font-family: 'AppleSDGothicNeoT00';
