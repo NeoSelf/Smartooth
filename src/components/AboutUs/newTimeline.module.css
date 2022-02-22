@@ -67,9 +67,11 @@
   width: 4px;
   position: absolute;
   margin-top: -50%;
+  /*세로줄 위치 조정*/
   left: 50%;
   transform: translate(-60%);
   height: 260vmin;
+  /*세로줄 길이 조정*/
   background-color: #747474;
   z-index: -1;
   overflow: hidden;
