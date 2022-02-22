@@ -100,8 +100,8 @@ function NewTimeline() {
                     <img src="img/aboutus/point.png" alt="point" />
                         <h2>2021.05</h2>
                         <h3 className={newTimelineCSS.tooLong} style={{marginRight:"2.2vmin"}}>
-                        Oral Care Education Demonstration service in Seocho Kindergarten
-                        <br/><b>Working mockup Production</b>
+                        -Oral Care Education Demonstration service in Seocho Kindergarten
+                        <br/>-<b>Working mockup Production</b>
                         </h3>
                     </li>
                     <li className={newTimelineCSS.right} >
