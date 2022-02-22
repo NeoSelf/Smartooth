@@ -1,27 +1,37 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import AboutUsCSS from "./AboutUs.module.css";
-import NewHeader from '../components/NewHeader'
+import NewHeader from "../components/NewHeader";
 import Subtitle from "../components/Subtitle";
 import Footer from "../components/Footer";
 import NewTimeline from "../components/AboutUs/newTimeline";
 import AboutSmartooth from "../components/AboutUs/AboutSmartooth";
-// import Members from "../components/AboutUs/Members";
-import NewMembers from '../components/AboutUs/NewMembers'
-// import Timeline from "../components/AboutUs/Timeline";
+import NewMembers from "../components/AboutUs/NewMembers";
+import Loader from '../components/Loader'
 
 function AboutUs() {
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+
   return (
     <div className={AboutUsCSS.content}>
-      <div className={AboutUsCSS.ref}>
-        {/* <img src="img/aboutus/aboutUs.png" alt="ex" /> */}
-      </div>
       <NewHeader />
       <br />
-      <AboutSmartooth />
-      <Subtitle text="Smartooth members" />
-      <NewMembers />
-      <NewTimeline/>
-      <Footer />
+      {loading ? (
+          <Loader/>
+       ): (
+        <div>
+          <AboutSmartooth />
+          <Subtitle text="Smartooth members" />
+          <NewMembers />
+          <NewTimeline />
+          <Footer />
+        </div>
+      )}
     </div>
   );
 }
