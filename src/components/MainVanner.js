@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function MainVanner() {
   return (
     <div className={MainVannerCSS.baseStart}>
-      <img className={MainVannerCSS.back} src="img/MainBG.jpg" alt="back" />
+      <img className={MainVannerCSS.back} src="img/MainBG.jpeg" alt="back" />
       <div className={MainVannerCSS.base}>
         <div className={MainVannerCSS.content}>
           <h3>TAKE CONTROL</h3>
