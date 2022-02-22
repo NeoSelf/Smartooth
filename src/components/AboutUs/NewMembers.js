@@ -22,22 +22,22 @@ const Members = () => {
 			<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
       <style>{cssstyle}</style>
     <Slider {...settings}>
-	    //덩어리의 시작
+	    {/*덩어리의 시작*/}
       <div>
         <div className={classes.base}>
           <img src="img/aboutus/2.png" alt="2" />
-		  //알록달록 윗배경 - 1~7까지 사진 있으니, 간격 고려해서 띄엄띄엄 써주시면 좋을거같습니다.
+		  {/*알록달록 윗배경 - 1~7까지 사진 있으니, 간격 고려해서 띄엄띄엄 써주시면 좋을거같습니다. */}
           <img className={classes.profileImg} src="img/aboutus/HJ_1.png" alt="HJ" />
-		  //인물사진 기입하는 곳 (크기 상관없음)
+		  {/*인물사진 기입하는 곳 (크기 상관없음) */}
           <div className={classes.text}>
             <h1>Hojung Son</h1>
-		//이름
+		{/*이름*/}
             <h2>CEO</h2>
-		//직책
+		{/*직책*/}
           </div>
         </div>
       </div>
-	     //덩어리의 끝
+	     {/*덩어리의 끝*/}
       <div>
         <div className={classes.base}>
           <img src="img/aboutus/1.png" alt="1" />
