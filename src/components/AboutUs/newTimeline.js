@@ -13,6 +13,7 @@ function NewTimeline() {
                     </li>
 {/*덩어리의 시작*/}
                     <li className={newTimelineCSS.right} >
+                        {/*클래스 이름 left랑 right 번갈아서 추가하시면 됩니다.*/}
                         <img src="img/aboutus/point.png" alt="point" />
                             {/*옆에 붙어다니는 동그라미 (건드실 필요 없습니다.)*/}
                         <h2>2019.01</h2>
