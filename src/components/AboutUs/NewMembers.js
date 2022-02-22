@@ -35,7 +35,7 @@ const Members = () => {
       <div>
         <div className={classes.base}>
           <img src="img/aboutus/2.png" alt="2" />
-          <img className={classes.profileImg} src="img/aboutus/empty.png" alt="HJ" />
+          <img className={classes.profileImg} src="img/aboutus/MS.png" alt="HJ" />
           <div className={classes.text}>
             <h1>Myungseon Ryou</h1>
             <h2>CTO</h2>
