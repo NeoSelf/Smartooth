@@ -24,7 +24,7 @@ const Members = () => {
     <Slider {...settings}>
       <div>
         <div className={classes.base}>
-          <img src="img/aboutus/1.png" alt="1" />
+          <img src="img/aboutus/2.png" alt="2" />
           <img className={classes.profileImg} src="img/aboutus/HJ_1.png" alt="HJ" />
           <div className={classes.text}>
             <h1>Hojung Son</h1>
@@ -34,7 +34,7 @@ const Members = () => {
       </div>
       <div>
         <div className={classes.base}>
-          <img src="img/aboutus/2.png" alt="2" />
+          <img src="img/aboutus/1.png" alt="1" />
           <img className={classes.profileImg} src="img/aboutus/MS.png" alt="HJ" />
           <div className={classes.text}>
             <h1>Myungseon Ryou</h1>
