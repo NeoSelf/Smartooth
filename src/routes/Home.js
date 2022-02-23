@@ -2,7 +2,8 @@ import NewHeader from "../components/NewHeader";
 import KickStarter from "../components/KickStarter";
 import MainVanner from "../components/MainVanner";
 import Subtitle from "../components/Subtitle";
-import Steps from "../components/Steps";
+// import Steps from "../components/Steps";
+import StepStatic from '../components/StepsStatic'
 import Footer from "../components/Footer";
 import HomeCSS from "./Home.module.css";
 import MobileApp from "../components/Product/MobileApp";
@@ -30,7 +31,7 @@ function Home() {
           <MainVanner />
           <KickStarter />
           <Subtitle text="It really is this simple" />
-          <Steps />
+          <StepStatic />
           <Subtitle text="Mobile application" />
           <br />
           <br />
