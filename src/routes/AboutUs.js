@@ -5,7 +5,9 @@ import Subtitle from "../components/Subtitle";
 import Footer from "../components/Footer";
 import NewTimeline from "../components/AboutUs/newTimeline";
 import AboutSmartooth from "../components/AboutUs/AboutSmartooth";
-import NewMembers from "../components/AboutUs/NewMembers";
+// import NewMembers from "../components/AboutUs/NewMembers";
+import NewMembersStatic from '../components/AboutUs/NewMembersStatic'
+
 import Loader from '../components/Loader'
 
 function AboutUs() {
@@ -27,7 +29,7 @@ function AboutUs() {
         <div>
           <AboutSmartooth />
           <Subtitle text="Smartooth members" />
-          <NewMembers />
+          <NewMembersStatic />
           <NewTimeline />
           <Footer />
         </div>
