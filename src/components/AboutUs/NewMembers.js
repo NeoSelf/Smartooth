@@ -74,7 +74,7 @@ const Members = () => {
           <img className={classes.profileImg} src="img/aboutus/HJ_2.png" alt="HJ" />
           <div className={classes.text}>
             <h1>Hyunjae Lee</h1>
-            <h2>ngineer</h2>
+            <h2>Engineer</h2>
           </div>
         </div>
       </div>
