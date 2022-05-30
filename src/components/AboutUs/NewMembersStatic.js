@@ -70,7 +70,7 @@ const Members = () => {
                     />
                     <div className={classes.text}>
                     <h1>Hyunjae Lee</h1>
-                    <h2>Researcher</h2>
+                    <h2>Engineer</h2>
                     </div>
                 </div>
             </div>
